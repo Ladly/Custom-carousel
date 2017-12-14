@@ -1,39 +1,34 @@
 #carousel-holder {
-  border-radius: 10px;
-  background: rgba(225,225,225, 0.5);
-  margin-top: 5px;
+  margin: 0 auto;
+  max-width: 1200px;
+  background: lightgrey;
+}
+
+#display-images {
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+#buttons {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .slider-buttons {
-  border-radius: 5px;
-  background: lightgrey;
-  width:15%;
-  height: 300px;
-  font-size: 40px;
-  color: black;
-  transition: font-size 0.5s
+  font-size: 2em;
+  display: inline;
+  border: 1px solid black;
 }
 
-.slider-buttons:hover {
-  font-size: 65px
+img {
+  margin: auto;
+  display: inline-block
 }
 
-#next {
-  float: left;
-  background: linear-gradient(to right, lightgrey , grey);
-}
-
-#prev {
-  float: right;
-  background: linear-gradient(to left, lightgrey , grey)
-}
-
-#carousel-holder > .col-md-3, .col-md-6 {
-  background: rgba(225,225,225, 1);
-  border-radius: 10px
-}
-
-.col-md-6 > img {
-  padding: 5%;
-  padding-left: 15%;
+.disabled {
+  font-size: 1.5em;
+  display: inline;
+  border: 1px solid black;
+  background: white;
 }
